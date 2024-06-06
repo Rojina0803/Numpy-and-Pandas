@@ -1,36 +1,36 @@
 import numpy as np
 import pandas as pd
 #LABELINGG
-# lables=['a','b','c']
-# my_data=[1,2,3]
-# print(pd.Series(data=my_data))
-# llb=pd.Series(data=my_data,index=lables)
-# print(llb)
+lables=['a','b','c']
+my_data=[1,2,3]
+print(pd.Series(data=my_data))
+llb=pd.Series(data=my_data,index=lables)
+print(llb)
 
-# lablee=["USA","UK","UAE"]
-# datas=["1.3M","4.6M","5.7M"]
-# print(pd.Series(data=datas, index=lablee))
+lablee=["USA","UK","UAE"]
+datas=["1.3M","4.6M","5.7M"]
+print(pd.Series(data=datas, index=lablee))
 
-# ser1=pd.Series(data=[1,2,3,4],index=["AUS","NEP","GER","EUR"])
-# print(ser1)
-# print(ser1["AUS"])
+ser1=pd.Series(data=[1,2,3,4],index=["AUS","NEP","GER","EUR"])
+print(ser1)
+print(ser1["AUS"])
 
-# df= pd.DataFrame(np.random.randn(5,4),['A','B','C','D','E'],['W','X','Y','Z'])
-# print(df)
-# print(df['W']['A'])
-# print("COLUMN: ",df['W'])
-# print("COLUMN: ",df['X'])
-# print("ROW:",df.loc['A']) # indexing of row
-# print(df.loc['A']['W'])
-# print(df[['W','X']])
-# print(df[['W','X']].loc[['A','B']])
-# print(df.loc[['A','B'],['W','X']])
-# print(df.loc[['A','B'],['Y','Z']])
-# print(df.loc[['C','E'],['W','Z']])
-# print(df>0)
-# print(df[df>0])
-# print(df[df['X']<0])
-# print(df[df['X']>0][['X','Y']])
+df= pd.DataFrame(np.random.randn(5,4),['A','B','C','D','E'],['W','X','Y','Z'])
+print(df)
+print(df['W']['A'])
+print("COLUMN: ",df['W'])
+print("COLUMN: ",df['X'])
+print("ROW:",df.loc['A']) # indexing of row
+print(df.loc['A']['W'])
+print(df[['W','X']])
+print(df[['W','X']].loc[['A','B']])
+print(df.loc[['A','B'],['W','X']])
+print(df.loc[['A','B'],['Y','Z']])
+print(df.loc[['C','E'],['W','Z']])
+print(df>0)
+print(df[df>0])
+print(df[df['X']<0])
+print(df[df['X']>0][['X','Y']])
 
 #MISSING DATAS
 d={
